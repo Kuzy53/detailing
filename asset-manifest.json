@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/detailing/static/css/main.3a5ff47d.css",
-    "main.js": "/detailing/static/js/main.cef99dfb.js",
+    "main.css": "/detailing/static/css/main.91d4733c.css",
+    "main.js": "/detailing/static/js/main.906237f9.js",
     "static/media/Service.gif": "/detailing/static/media/Service.54ae38bdc9cbeb9e9a0d.gif",
     "static/media/Wash1.png": "/detailing/static/media/Wash1.d7d32eac48c0a3a88fe8.png",
     "static/media/Wash.png": "/detailing/static/media/Wash.0d3842901aa40f415d0f.png",
@@ -19,13 +19,14 @@
     "static/media/G.svg": "/detailing/static/media/G.6ee48ce412bff1586ebb35fa4687a9eb.svg",
     "static/media/G2.svg": "/detailing/static/media/G2.8261420752f567a4fe983c646dd2e51f.svg",
     "static/media/Logo.svg": "/detailing/static/media/Logo.2ea046ff638b9c1d75de29e15960273c.svg",
+    "static/media/Logo1.svg": "/detailing/static/media/Logo1.6a8b89c1cc2af02900dcaadeb5ee9633.svg",
     "static/media/OffTheGrid.svg": "/detailing/static/media/OffTheGrid.52850cf3d20e036ecb76bc53d89072e1.svg",
     "index.html": "/detailing/index.html",
-    "main.3a5ff47d.css.map": "/detailing/static/css/main.3a5ff47d.css.map",
-    "main.cef99dfb.js.map": "/detailing/static/js/main.cef99dfb.js.map"
+    "main.91d4733c.css.map": "/detailing/static/css/main.91d4733c.css.map",
+    "main.906237f9.js.map": "/detailing/static/js/main.906237f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5ff47d.css",
-    "static/js/main.cef99dfb.js"
+    "static/css/main.91d4733c.css",
+    "static/js/main.906237f9.js"
   ]
 }
