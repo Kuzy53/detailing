@@ -1,0 +1,167 @@
+.header {
+    /* background-color: #FF8300; */
+    padding: 10px 20px;
+    position: relative;
+  }
+  .orange__btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .logo1 {
+    position: absolute;
+    z-index: 1000000000000;
+    display: none;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo__container img {
+    max-height: 50px;
+  }
+  
+  .link__container {
+    display: flex;
+    gap: 90px;
+  }
+  
+  .link__container a {
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+  }
+  
+  .burger {
+    display: none;
+  }
+  
+  .burger__icon {
+    width: 25px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1001; /* Ensure the burger icon is on top */
+  }
+  
+  .burger__icon span {
+    display: block;
+    background: #fff;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .burger__icon.open span:nth-child(1) {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+  }
+  
+  .burger__icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger__icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+  }
+  
+  .link__container.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #FF8300;
+    z-index: 1000;
+    padding-top: 160px;
+    text-align: center;
+  }
+  
+  .link__container.open a {
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+    max-width: 142px;
+    color: #000;
+  }
+  
+  .link__container.open p {
+    color: #000;
+    margin-top: 15px;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  .link__container  a.mob {
+    margin-top: 0px;
+    margin-left: 0; 
+    max-width: none;
+    margin-right: 0; 
+    font-size: 16px;
+  }
+  
+  /* Мобильная версия */
+  @media (max-width: 768px) {
+    .header {
+      padding: 0;
+    }
+    .link__container {
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .burger {
+      display: block;
+    }
+    .mob {
+      text-align: left;
+      color: #000!important;
+      margin-bottom: 0px!important;
+      max-width: 280px;
+    }
+    .mob_margin {
+      margin-top: 140px!important;
+    }
+  }
+  
+  /* Десктопная версия */
+  @media (min-width: 769px) {
+    .burger {
+      display: none;
+    }
+  
+    .link__container {
+      display: flex;
+      gap: 90px;
+    }
+  
+    .link__container.open {
+      display: flex;
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      background-color: transparent;
+      z-index: 1;
+      padding-top: 0;
+      text-align: left;
+    }
+  
+    .link__container a {
+      font-size: 16px;
+      margin: 0;
+    }
+  
+    .link__container .mob {
+      display: none; /* Скрываем контактные данные на десктопе */
+    }
+  }
+  
